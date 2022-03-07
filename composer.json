@@ -1,0 +1,29 @@
+{
+    "name": "timedoor/git-tag",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "I Wayan Sudharmika",
+            "email": "sudhar.denpasar@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Timedoor\\TmdGitTag\\": "src"
+        },
+        "files": [
+            "src\\helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Timedoor\\TmdGitTag\\GitTagServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
