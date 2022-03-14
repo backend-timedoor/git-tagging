@@ -13,8 +13,6 @@ class GitTagServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        dd( __DIR__ );
-
         //Merge config file
         $this->mergeConfigFrom(
             __DIR__ . '/../config/tmd-git-tag.php', 'tmd-git-tag'
