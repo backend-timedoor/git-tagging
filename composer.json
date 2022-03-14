@@ -1,5 +1,5 @@
 {
-    "name": "timedoor/git-tag",
+    "name": "timedoor/tmd-git-tag",
     "type": "library",
     "license": "MIT",
     "authors": [
