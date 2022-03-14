@@ -1,5 +1,6 @@
 {
     "name": "timedoor/tmd-git-tag",
+    "description": "Git Tage for versioning Timedoor",
     "type": "library",
     "license": "MIT",
     "authors": [
