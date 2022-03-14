@@ -27,7 +27,7 @@ class GitTagServiceProvider extends ServiceProvider
     public function boot()
     {
         //only publish when using CLI
-        if ( $this->app->runningInConsole ) {
+        if ( $this->app->runningInConsole() ) {
             $this->bootForConsole();
         }
     }
